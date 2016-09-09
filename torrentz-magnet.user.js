@@ -4,6 +4,7 @@
 // @author		mems <memmie@lenglet.name>
 // @homepageURL https://github.com/mems/torrentz-magnet
 // @description	Add magnet link to torrentz download page.
+// @match		*://*.torrentz2.eu/*
 // @match		*://*.torrentz.com/*
 // @match		*://*.torrentz.eu/*
 // @match		*://*.torrentz.ch/*
@@ -16,15 +17,21 @@
 // @match		*://*.torrentz-proxy.com/*
 // @match		*://*.torrentsmirror.com/*
 // @updateURL   https://openuserjs.org/install/mems/Torrentz_magnet.user.js
-// @version		1.0.0
+// @version		1.1.0
 // @grant		none
 // ==/UserScript==
 
 var list = document.querySelector(".download");
 var defaultTrackers = [
-	"http://tracker.openbittorrent.com/announce",
-	"http://tracker.publicbt.com:80/announce",
-	"http://denis.stalker.h3q.com:6969/announce"
+	"http://pow7.com:80/announce",
+	"udp://tracker.openbittorrent.com/announce",
+	"udp://tracker.internetwarriors.net:1337/announce",
+	"udp://tracker.sktorrent.net:6969/announce",
+	"udp://tracker.opentrackr.org:1337/announce",
+	"udp://tracker.coppersurfer.tk:6969/announce",
+	"udp://tracker.leechers-paradise.org:6969/announce",
+	"udp://zer0day.ch:1337/announce",
+	"udp://explodie.org:6969/announce"
 ];
 if(list){
 	let name = list.querySelector("h2 span").textContent.trim();
