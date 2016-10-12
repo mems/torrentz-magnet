@@ -35,7 +35,7 @@ var defaultTrackers = [
 ];
 if(list){
 	let name = list.querySelector("h2 span").textContent.trim();
-	let hash = document.querySelector(".trackers > div").textContent.trim().split(/:\s+/, 2)[1];
+	let hash = document.querySelector(".trackers > div, .trackers h2").textContent.trim().split(/:\s+|hash\s+/, 2)[1];
 	let trackers = Array.from(document.querySelectorAll(".trackers dl a")).map(node => node.textContent.trim()).concat(defaultTrackers);
 	let trackersCmps = trackers.reduce((result, uri) => result + "&tr=" + encodeURIComponent(uri), "");
 	let uri = `magnet:?xt=urn:btih:${hash}&dn=${encodeURIComponent(name)}${trackersCmps}`;
