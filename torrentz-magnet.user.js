@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name		Torrentz magnet
-// @namespace	memmie.lenglet.name
+// @namespace		memmie.lenglet.name
 // @author		mems <memmie@lenglet.name>
-// @homepageURL https://github.com/mems/torrentz-magnet
-// @description	Add magnet link to torrentz download page.
+// @homepageURL 	https://github.com/mems/torrentz-magnet
+// @description		Add magnet link to torrentz download page.
 // @match		*://*.torrentz2.eu/*
 // @match		*://*.torrentz.com/*
 // @match		*://*.torrentz.eu/*
@@ -16,8 +16,9 @@
 // @match		*://*.tz.ai/*
 // @match		*://*.torrentz-proxy.com/*
 // @match		*://*.torrentsmirror.com/*
-// @updateURL   https://openuserjs.org/install/mems/Torrentz_magnet.user.js
-// @version		1.1.1
+// @match		*://*.torrentzeu.to/*
+// @updateURL   	https://openuserjs.org/install/mems/Torrentz_magnet.user.js
+// @version		1.1.2
 // @grant		none
 // ==/UserScript==
 
