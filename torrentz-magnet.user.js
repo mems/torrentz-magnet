@@ -18,7 +18,7 @@
 // @match		*://*.torrentsmirror.com/*
 // @match		*://*.torrentzeu.to/*
 // @updateURL   	https://openuserjs.org/install/mems/Torrentz_magnet.user.js
-// @version		1.1.3
+// @version		1.1.4
 // @grant		none
 // ==/UserScript==
 
@@ -43,7 +43,7 @@ if(list){
 	let magnetIcon = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAZUlEQVQokc2RQQrAMAgE9+g/99/5yvaSWDUV0lMrDATMiIsAoIZVbV9jjEQVu/4HohZmAiCSLs63ZOa0Ivb6nThv9D5jkCNRcpHkJqqsXyGpe5VDMUVZ8uOAnCvl9yKpOCR+rsIFGyA1+Hqs6JoAAAAASUVORK5CYII=";// from https://commons.wikimedia.org/wiki/File:Magnet-icon.gif
 	list.querySelector("dl:first-of-type").insertAdjacentHTML("beforebegin", `
 		<dl>
-			<dt><a href="${uri}"><span class="${/(^|\.)torrentz2.eu$/.test(location.hostname) ? `j z" style="background: url('${magnetIcon}') bottom center no-repeat"></span><span class="u"` : `u" style="background: transparent url('${magnetIcon}') no-repeat 5px center; color: red;"`}>Magnet</span> <span class="n">${name}</span></a></dt>
+			<dt><a href="${uri}"><span class="${/(^|\.)torrentz2.eu$/.test(location.hostname) ? `j z s197"></span><span class="u"` : `u" style="background: transparent url('${magnetIcon}') no-repeat 5px center; color: red;"`}>Magnet</span> <span class="n">${name}</span></a></dt>
 			<dd>Magnet</dd>
 		</dl>
 	`);
