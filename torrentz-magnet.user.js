@@ -4,6 +4,7 @@
 // @author		mems <memmie@lenglet.name>
 // @homepageURL 	https://github.com/mems/torrentz-magnet
 // @description		Add magnet link to torrentz download page.
+// @license		MIT
 // @match		*://torrentz.unblocked.srl/*
 // @match		*://*.torrentz2.eu/*
 // @match		*://*.torrentz.com/*
