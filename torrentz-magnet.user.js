@@ -19,7 +19,8 @@
 // @match		*://*.torrentz-proxy.com/*
 // @match		*://*.torrentsmirror.com/*
 // @match		*://*.torrentzeu.to/*
-// @updateURL   	https://openuserjs.org/install/mems/Torrentz_magnet.user.js
+// @updateURL   	https://openuserjs.org/meta/mems/Torrentz_magnet.meta.js
+// @downloadURL   	https://openuserjs.org/src/scripts/mems/Torrentz_magnet.user.js
 // @version		1.1.8
 // @grant		none
 // ==/UserScript==
