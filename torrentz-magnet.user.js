@@ -19,11 +19,11 @@
 // @match		*://*.torrentsmirror.com/*
 // @match		*://*.torrentzeu.to/*
 // @updateURL   	https://openuserjs.org/install/mems/Torrentz_magnet.user.js
-// @version		1.1.7
+// @version		1.1.8
 // @grant		none
 // ==/UserScript==
 
-let list = document.querySelector(".download,.downlinks");
+let list = document.querySelector(".download,.downlinks,.downurls");
 // Default list of track will be used in addition to trackers provided by torrentz
 // Lists available (could be used to customize the following list):
 // https://newtrackon.com/
